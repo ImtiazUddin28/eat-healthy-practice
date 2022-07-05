@@ -7,21 +7,81 @@ h1{
     font-size: 50px;
     font-weight: 800;
 }
-
-.review_area{
-    display: flex;
-    
-    margin:10px;
-}
-.review_area div{
-    width: 30%;
+.link-button{
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(red,yellow);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
 }
 .color-orange{
-    color: orange
+    color: orange;
 }
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+    padding: 35px;
+    margin: 100px 50px;
+   
+}
+
+.heading{
+    display:flex;
+    margin: 25px;
+}
+.heading-img img{
+    width: 80%;
+}
+.about{
+    display: flex;
+    margin-top: 25px;
+    background-image: url(images/shapes/7.png);
+}
+
+.about-text h1, p, a{
+    
+    padding: 40px 15px;
+}
+.about-img img{
+    width: 60%;
+}
+#recipie-p{
+    text-align: center;
+}
+.recipie-heading h1{
+    text-align: center;
+}
+.recipie-gallery{
+    display: flex;
+    margin: 25px;
+   
+}
+.recipie-gallery-left{
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-gallery-right{
+    width:50%;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-gallery img{
+    width:80%;
+}
+.review_area{
+    display:flex;
+    margin: 40px 150px;
+    box-shadow: 10px 10px 40px gray;
+}
+.review_area div{
+    width: 33%;
+    padding: 0 10%;
+}
+
 .footer-area{
     text-align: center;
     background-color: black;
+    padding: 30px 15px;
 }
 .footer-area h1{
     color: gray
